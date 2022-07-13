@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Carnes Don Fernando</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_locales">Locales</string>
+    <string name="title_cortes">Cortes</string>
+    <string name="title_pedidos">Pedidos</string>
+    <string name="title_perfil">Perfil</string>
 </resources>
