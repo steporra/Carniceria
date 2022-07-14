@@ -9,10 +9,10 @@
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:layout_gravity="center"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        android:layout_gravity="center">
+        tools:layout_editor_absoluteY="1dp">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -27,14 +27,14 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="Inicio de sesión"
             android:textAlignment="center"
             android:textSize="28sp"
-            android:textStyle="bold"
-            android:layout_margin="10dp"/>
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/tv_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -45,7 +45,7 @@
             android:textAllCaps="false" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/tv_contrasenia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -55,11 +55,20 @@
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_iniciarSesion"
             android:layout_width="306dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="Iniciar Sesión" />
+
+        <Button
+            android:id="@+id/btn_creaCuenta"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Crear Cuenta" />
+
     </LinearLayout>
 </LinearLayout>
