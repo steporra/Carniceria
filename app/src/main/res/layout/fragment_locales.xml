@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.home.HomeFragment">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="363dp"
+                android:layout_height="300dp"
+                android:src="@drawable/Chanchito"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Theme.Lugares.AppBarOverlay">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#AF4C45"
+                    app:logo="@drawable/Home"
+                    app:navigationIcon="@drawable/Back"
+                    app:popupTheme="@style/Theme.Lugares.PopupOverlay"
+                    app:title="Locales"
+                    app:titleMarginBottom="16dp"
+                    app:titleMarginEnd="16dp"
+                    app:titleMarginStart="50dp"
+                    app:titleMarginTop="16dp"
+                    app:titleMargins="0dp" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="El Chanchito Feliz"
+                android:textColor="#A15151"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="179dp"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="San Franciso, Heredia"
+                android:textColor="#4CAF50"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="208dp"
+                tools:layout_editor_absoluteY="68dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicado a las afueras del Mall Oxigeno, 150 mts norte."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="370dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="424dp"
+                android:layout_height="239dp"
+                android:src="@drawable/gracas"
+                tools:layout_editor_absoluteX="-7dp"
+                tools:layout_editor_absoluteY="437dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Carniceria Gracas"
+                android:textColor="#A15151"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="400dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="156dp"
+                android:layout_height="41dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Grecia, Alajuela"
+                android:textColor="#4CAF50"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="226dp"
+                tools:layout_editor_absoluteY="407dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicado en City Mall, local #42."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
